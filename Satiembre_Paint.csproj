@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{63899FBF-C37F-42D2-ADE5-3C8A48E2A55E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Satiembre_Paint</RootNamespace>
+    <AssemblyName>Satiembre_Paint</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\192051181_480841129643970_200752237893423272_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\188882881_1511964869146199_2393559469666286148_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\191157987_365593534916081_5977847031434135664_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\188882881_1511964869146199_2393559469666286148_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\188882881_1511964869146199_2393559469666286148_n2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[removal.ai]_tmp-60b72fa88bfdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\192051181_480841129643970_200752237893423272_n1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\187635219_484226099465139_3376526446160484520_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\187635219_484226099465139_3376526446160484520_n %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\194018793_1166813257078327_1148234672628605723_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\193694370_968817447197806_6650969680361113559_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\193694370_968817447197806_6650969680361113559_n1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Palette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\193694370_968817447197806_6650969680361113559_n2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\190152962_188589313164989_2765648886590613739_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\192284454_781367455886682_2096511559269001594_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\190452594_965279167629329_3887054056277589487_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\193751770_1355534401498279_4225937986105798860_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\195867770_262270899008775_5609039601681739000_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\192072082_4200202566692895_6572594018481988789_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\196716093_540160747146079_4567991548763717789_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\186548113_3743692679069211_4669567928535559626_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\188016031_543506233313438_6390659292009122319_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\189546064_412095906423812_6198873072755434592_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\191748846_220488589887035_6163318004700879953_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\193028895_234402874729999_7096983383339730232_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\193053939_149832913744399_4192090084861265915_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\189852683_743886442954129_7737674487421319969_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\189302497_698255674219865_3791603795814773456_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\195019580_148265850685524_542126773712661699_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\190807460_330606035109558_2827256189491838632_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\189554275_315598120057478_7879302590093683766_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\189554275_315598120057478_7879302590093683766_n1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\195019580_148265850685524_542126773712661699_n1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
